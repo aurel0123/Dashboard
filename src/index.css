@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+}
+body{
+  background-color: #282e38;
+}
+.container{
+  width: 85%;
+  margin: auto;
+}
+h3{
+  font-size: 16px;
+}
+span{
+  font-size: 12px;
+}
+p{
+  font-size: 12px;
+}
+.flexSB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexCenter{
+  display: flex;
+  align-items: center;
+}
+button,
+input{
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+
+/* homme section  */
+.Home{
+  margin-top: 50px;
+}
+.common{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color :#CDCDCC ; 
+}
+.common h4{
+  font-size: 18px ;
+  font-weight: 500;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap : 30px;
+}
+.progress{
+  background-color: #2a544b;
+  position: relative;
+  height: 7px;
+  width: 90%;
+  border-radius: 20px ;
+  margin: 45px 0 0 0;
+}
+.progress-done{
+  background-color: #38d16a;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  border-radius: 20px;
+  transition: 1s ease 0.3s;
+  color: #fff;
+}
+
+/* Cards */
+.Cards{
+  margin-top: 20px;
+}
+.Cardbox{
+  padding: 20px;
+  background-color: #353D4A;
+  border-radius: 5px ;
+}
+.batch{
+  background-color: #38d16a;
+  display: flex;
+  align-items: center;
+  border-radius: 50px ;
+  width: 65px;
+  padding: 1px 5px;
+}
+.color{
+  background-color: #ff8acc;
+}
+/* Charts */
+.Charts{
+  margin-top: 20px;
+}
+/* Users  */
+.Users{
+  margin-top: 80px;
+}
+
+.Users-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.content-left .img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px ;
+}
+.img  .imageCircle{
+  width: 100%;
+  height: 100%;
+  border-radius: 50% ;
+}
+.img img{
+    object-fit: cover;
+}
+.Table{
+  margin-top: 40px ;
+  display: flex;
+}
+/*-------------light-mode---------------------*/
+.light {
+  background-color: #ebeff2;
+}
+.light .Cardbox {
+  background-color: #fff;
+  box-shadow: 0 0.75rem 6rem rgba(56, 65, 74, 0.03);
+}
+.light .heading span,
+.light .heading h3,
+.light .cardHeading {
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .grid2{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Table{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
+  .grid{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .grid2{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Table{
+    flex-direction: column;
+  }
+}

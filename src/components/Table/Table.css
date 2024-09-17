@@ -1,0 +1,73 @@
+.user{
+    flex: 2;
+}
+.imageCircle1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px ;
+  }
+  .img1  .imageCircle1{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+  }
+  .img1 img{
+      object-fit: cover;
+  }
+  .Table .table{
+    flex: 4;
+    margin-left: 30px;
+  }
+.userBox .Cardbox{
+    padding: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(89, 89, 89);
+    border-radius: 0;
+    color: #fff;
+}
+.light .userBox .Cardbox {
+    color: #000;
+    border-bottom: 1px solid rgb(193, 193, 193);
+  }
+  .userBox .Cardbox:nth-child(1) {
+    margin-top: 30px;
+  }
+  .userBox .Cardbox:nth-last-child(1) {
+    border-bottom: none;
+  }
+  .userBox p,
+  .userBox span {
+    opacity: 0.5;
+  }
+.userBox .Cardbox .title{
+    text-align: left;
+  }
+  .tablebox{
+    margin-top: 20px;
+    height: 100%;
+  }
+  .light .userBox .Cardbox {
+    color: #000;
+    border-bottom: 1px solid rgb(193, 193, 193);
+  }
+  .light .tableContainer {
+    background-color: #fff !important;
+  }
+@media screen and (max-width : 375px){
+  .Table .table{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width : 768px){
+  .Table .table{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

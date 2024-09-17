@@ -1,0 +1,10 @@
+
+@media screen and (max-width : 375px){
+   .Charts .Cardbox{
+    width: 285px;
+   }
+
+   .Charts .Cardbox:nth-child(3){
+    display: none;
+   }
+  }

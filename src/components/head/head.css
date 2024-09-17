@@ -1,0 +1,32 @@
+/* right-container */
+.head {
+    padding: 10px 0;
+    color: #fff;
+}
+.search{
+    background-color: #848c99;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.search input{
+    color: #fff;
+}
+input::placeholder{
+    color: #fff;
+}
+.light .search{
+    background-color: #e2e6ea;
+}
+.light .iconHead {
+    color: #323a46;
+}
+.iconHead{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media  screen and (max-width:768px) {
+    .head .search{
+        display: none; ;
+    }
+}

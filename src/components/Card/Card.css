@@ -1,0 +1,21 @@
+.Cardbox .circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+.Cardbox .title {
+    text-align: right;
+    color: #f7f7f7;
+  }
+.circle .title p{
+    color: #CDCDCC;
+    font-size: 13px;
+}
+.rows{
+    width: 50%;
+}
+.circle .title h1{
+    font-size: 30px;
+    font-weight: 500;
+}
